@@ -1,0 +1,74 @@
+@import url(http://fonts.googleapis.com/css?family=Libre+Baskerville);
+
+/* Banner Image */
+#bannerimage {
+  width: 513px;
+  position: relative;
+  repeat: no-repeat;
+  background-image: url("/image/banner.png");
+  height: 237px;
+  position: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Banner Image */
+#container{
+    width: 50%;
+    background-color: #EAC300;
+    height: 100%;
+    opacity: 0.7;
+    position: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+ table {
+     border-collapse: collapse;
+ }
+
+ td, th {
+     border: 1px solid #999;
+     padding: 0.5rem;
+     color: black;
+     position: center;
+ }
+
+
+
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color: #EAC300;
+  overflow: hidden;
+  width: 42%;
+  margin: auto;
+  align: center;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  font-size: 17px;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: black;
+  text-shadow: 3px 3px 3px #E8E3E4, -1px 0 3px #002823;
+  font-family: 'Libre Baskerville', serif;
+ }
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: rgb(231, 231, 231);
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: grey;
+  color: black;
+}

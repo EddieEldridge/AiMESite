@@ -1,0 +1,9 @@
+.background{
+  background-image: url("/image/lotr.jpg");
+  background-repeat: no-repeat;
+  background-size: 1920px 1080px;
+  width: 1920px;
+  height: 1920px;
+  z-index: -100;
+  position: absolute;
+}

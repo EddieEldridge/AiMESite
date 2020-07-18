@@ -1,0 +1,42 @@
+h1 {
+    text-align: center;
+    font-size: 40px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: black;
+    font-family: 'Libre Baskerville', serif;
+}
+
+h2{
+    text-align: center;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: black;
+    font-family: 'Libre Baskerville', serif;
+}
+
+
+p{
+    text-align: center;
+    font-size: 15px;
+    text-transform: uppercase;
+    color: black;
+    font-family: 'Libre Baskerville', serif;
+}
+
+#statsTable{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#generateButton{
+    padding: 10px;
+    width: 125px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#npcInfo{
+    padding-top: 10px;
+}

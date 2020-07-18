@@ -1,0 +1,78 @@
+Longsword
+Straight Sword
+Broadsword
+Broken Straight Sword
+Shortsword
+Flamberge
+Dagger
+Club
+Halberd
+Lance
+Pike
+Quarterstaff
+Sabre
+Sickle
+Kama
+Machete
+Kukri
+Spear
+Guandao
+Scythe
+Mace
+Flail
+Javelin
+Spear
+Longspear
+Shortspear
+Brass-knuckles
+Gold plated brass-knuckles
+Whip
+Notched Whip
+Spade
+Pitchfork
+Fencepost
+Greatbow
+Shortbow
+Longbow
+Crossbow
+Greataxe
+Great Machete
+Morning Star
+Reinforced Club
+Hammer
+Great Hammer
+Warpick
+Pickaxe
+Great Mace
+Spiked Mace
+Murakumo
+Uchiganta
+Scimitar
+Falchion
+Shotel
+Fists
+Unarmed
+Rapier
+Plow
+Swordspear
+Pike
+Halberd
+Glaive
+Crescent Axe
+Hand Axe
+Butcher's Knife
+Kitchen Knife
+Hatchet
+Claws
+Zweihander
+Greatsword
+Kama
+Hobbit Golf Club
+Tree Branch
+Gladius
+Lance
+Bo Staff
+Quarterstaff
+Throwing Knife
+Wooden Sword
+Fishing Rod
