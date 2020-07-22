@@ -2,6 +2,9 @@ const React = require('react');
 const ReactDOM = require('react-dom');
 const client = require('./client');
 
+// Import (Other)
+import '../resources/static/font/lotr.ttf'
+
 // Imports (Libraries)
 import {
     BrowserRouter as Router,
@@ -10,6 +13,7 @@ import {
   } from "react-router-dom";
 import {Route} from 'react-router'
 import axios from 'axios';
+import { trackPromise} from 'react-promise-tracker';
 
 // Imports (Bootstrap)
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -37,21 +41,23 @@ class App extends React.Component {
 	this.sendGenerateCharacterRequest = this.sendGenerateCharacterRequest.bind(this);
 }
 
-sendGenerateCharacterRequest() {
-    axios.get('http://localhost:8080/api/generateCharacter').then((response) => {
-            var npc = response.data;
-            this.setState({
-                nonPlayableCharacter: npc
-            });
-        })
-        .catch(function (error) {
-            console.log(error);
-        });
-}
+        sendGenerateCharacterRequest() {
+            trackPromise(
+                    axios.get('http://localhost:8080/api/generateCharacter').then((response) => {
+                        var npc = response.data;
+                        this.setState({
+                            nonPlayableCharacter: npc
+                        });
+                    })
+                    .catch(function (error) {
+                        console.log(error);
+                    })
+            );
+        }
 
-componentDidMount() {
-    this.sendGenerateCharacterRequest();
-    }
+        componentDidMount() {
+            this.sendGenerateCharacterRequest();
+        }
 
 	render() {
 		return (
