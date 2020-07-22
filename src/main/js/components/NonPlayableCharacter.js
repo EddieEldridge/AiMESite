@@ -44,33 +44,50 @@ componentDidMount() {
 	render() {
 		return (
 		<div>
-		    <h1>{this.props.nonPlayableCharacter.name}</h1>
-            <h2>the {this.props.nonPlayableCharacter.title}</h2>
-            <p><b>Status:</b>       {this.props.nonPlayableCharacter.status}</p>
-            <p><b>Culture:</b> {this.props.nonPlayableCharacter.culture}</p>
-            <p><b>Weapon:</b> {this.props.nonPlayableCharacter.weapon}</p>
-            <p><b>Gender:</b> {this.props.nonPlayableCharacter.gender}</p>
-            <p><b>Age:</b> {this.props.nonPlayableCharacter.age}</p>
+      <div id="nameAndTitle">
+        <h1>{this.props.nonPlayableCharacter.name}</h1>
+          <h2>the {this.props.nonPlayableCharacter.title}</h2>
+        </div>
+        <table id="statsTable">
+            <div id="infoTables">
+                <table>
+                      <tr id="leftTable">
+                        <td><b>Status</b></td>
+                        <td><b>Culture</b></td>
+                        <td><b>Age</b></td>
+                        <td><b>Gender</b></td>
+                        <td><b>Weapon</b></td>
+                      </tr>
+                      <tr id="rightTable">
+                        <td>{this.props.nonPlayableCharacter.status}</td>
+                        <td>{this.props.nonPlayableCharacter.culture}</td>
+                        <td>{this.props.nonPlayableCharacter.age}</td>
+                        <td>{this.props.nonPlayableCharacter.gender}</td>
+                        <td>{this.props.nonPlayableCharacter.weapon}</td>
+                      </tr>             
+                </table> 
+            </div>
             <div id="statsDiv">
                 <table id="statsTable">
-                    <tbody>
-                 <tr>
-                   <th>Strength</th>
-                   <th>Dexterity</th>
-                   <th>Wisdom</th>
-                   <th>Intelligence</th>
-                   <th>Charisma</th>
-                 </tr>
-                 <tr>
-                   <td>{this.props.nonPlayableCharacter.strength}</td>
-                   <td>{this.props.nonPlayableCharacter.dexterity}</td>
-                   <td>{this.props.nonPlayableCharacter.wisdom}</td>
-                   <td>{this.props.nonPlayableCharacter.intelligence}</td>
-                   <td>{this.props.nonPlayableCharacter.charisma}</td>
-                 </tr>             
-                    </tbody> 
+                  <tbody>
+                    <tr>
+                      <th>Strength</th>
+                      <th>Dexterity</th>
+                      <th>Wisdom</th>
+                      <th>Intelligence</th>
+                      <th>Charisma</th>
+                    </tr>
+                    <tr>
+                      <td>{this.props.nonPlayableCharacter.strength}</td>
+                      <td>{this.props.nonPlayableCharacter.dexterity}</td>
+                      <td>{this.props.nonPlayableCharacter.wisdom}</td>
+                      <td>{this.props.nonPlayableCharacter.intelligence}</td>
+                      <td>{this.props.nonPlayableCharacter.charisma}</td>
+                    </tr>             
+                  </tbody> 
                 </table> 
-                </div>
+            </div>
+        </table>
 		</div>
 		)
 	}

@@ -8,20 +8,20 @@
 
 /* Banner Image */
 #bannerimage {
-  width: 513px;
+  width: 1125px;
   position: relative;
-  repeat: no-repeat;
   background-image: url("/image/banner.png");
-  height: 237px;
+  background-repeat: no-repeat;
+  height: 75px;
   position: center;
-  display: block;
   margin-left: auto;
   margin-right: auto;
+  padding-top: 100px;
 }
 
 /* Banner Image */
 #container{
-    width: 50%;
+    width: 55%;
     background-color: #EAC300;
     height: 100%;
     opacity: 0.7;

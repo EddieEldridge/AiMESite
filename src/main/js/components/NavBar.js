@@ -5,9 +5,17 @@ import {
     Route,
     Link
   } from "react-router-dom";
+import Dropdown from 'react-dropdown';
 
+const options = [
+    'one', 'two', 'three'
+  ];
+const defaultOption = options[0];
+  
 // NavBar
 class NavBar extends React.Component{
+
+    
     render() {
         return (
             <div className="topnav">

@@ -18,14 +18,14 @@ class CharacterList extends React.Component{
     render(){
         return(
             <div className="characterList">
-                <ul>
+                <ol>
                     <li><Link to="/characterProfiles/Cirion_of_Arthedain">Cirion of Arthedain</Link></li> 
                     <li><Link to="/characterProfiles/Cirion_of_Arthedain">Cirion of Arthedain</Link></li> 
                     <li><Link to="/characterProfiles/Cirion_of_Arthedain">Cirion of Arthedain</Link></li> 
                     <li><Link to="/characterProfiles/Cirion_of_Arthedain">Cirion of Arthedain</Link></li> 
                     <li><Link to="/characterProfiles/Cirion_of_Arthedain">Cirion of Arthedain</Link></li> 
                     <li><Link to="/characterProfiles/Cirion_of_Arthedain">Cirion of Arthedain</Link></li> 
-                </ul>
+                </ol>
             </div>
         )
     }
