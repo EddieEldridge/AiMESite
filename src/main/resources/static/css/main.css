@@ -42,36 +42,38 @@
      position: center;
  }
 
-
-
+.topNavItems {
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: auto;
+  padding-right: 20px;
+  display: inline-block
+}
 /* Add a black background color to the top navigation */
 .topnav {
   background-color: #EAC300;
   overflow: hidden;
-  width: 42%;
-  margin: auto;
-  align: center;
+  width: 55%;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /* Style the links inside the navigation bar */
 .topnav a {
   float: left;
-  color: #f2f2f2;
+  color: #474747;
   text-align: center;
-  padding: 14px 16px;
+  padding: 16px 16px;
   font-size: 17px;
   text-transform: uppercase;
   font-weight: bold;
   color: black;
   text-shadow: 1px 1px 1px rgb(117, 117, 117), -1px 0 1px #002823;
   font-family: 'lotrFont';
+  padding-bottom: 10px;
  }
 
-/* Change the color of links on hover */
-.topnav a:hover {
-  background-color: rgb(231, 231, 231);
-  color: black;
-}
 
 /* Add a color to the active/current link */
 .topnav a.active {

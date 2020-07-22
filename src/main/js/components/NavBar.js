@@ -11,11 +11,14 @@ class NavBar extends React.Component{
     render() {
         return (
             <div className="topnav">
+                <div className="topNavItems">
                     <Link to="/homePage">Home</Link>
-                    <Link to="/characters">Characters</Link>
+                    <Link to="/characterList">Characters</Link>
                     <Link to="/generateNPC">Generator</Link>
                     <Link to="/guides">Guides</Link>
+                    <Link to="/resources">Resources</Link>
                     <Link to="/about">About</Link>
+                </div>
             </div>
 
         );

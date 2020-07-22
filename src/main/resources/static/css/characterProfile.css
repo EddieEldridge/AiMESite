@@ -1,0 +1,14 @@
+@font-face {
+    font-family: 'lotrFont';
+    src: url('../font/lotr.ttf') format('truetype');
+    font-style: normal;
+    font-weight: normal;
+  }
+
+
+h1 {
+    text-align: center;
+    font-size: 40px;
+    color: black;
+    font-family: 'lotrFont';
+}

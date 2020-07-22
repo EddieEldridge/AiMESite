@@ -7,7 +7,7 @@ import '../resources/static/font/lotr.ttf'
 
 // Imports (Libraries)
 import {
-    BrowserRouter as Router,
+    HashRouter as Router,
     Switch,
     Link
   } from "react-router-dom";
@@ -26,6 +26,8 @@ import Button from 'react-bootstrap/Button';
 import Background from './components/Background';
 import NonPlayableCharacter from './components/NonPlayableCharacter';
 import Home from './components/Home';
+import CharacterProfile from './components/CharacterProfile';
+import CharacterList from './components/CharacterList';
 
 // App component
 class App extends React.Component {
@@ -78,6 +80,11 @@ class App extends React.Component {
                                 </div>
                             </div>
                         </Route>
+                        <Route path="/characterList">
+                            <div id="characterInformation">
+                                <CharacterList characterList={this.state.characterList} />
+                            </div>
+                        </Route>
                 </Container>                   
              </div>
         </Router>
@@ -99,4 +106,4 @@ class Container extends React.Component{
 
 
 // Render
-ReactDOM.render(<App />, document.getElementById("react"));
+ReactDOM.render(<Router><App /></Router>, document.getElementById("react"));

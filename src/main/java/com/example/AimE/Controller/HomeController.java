@@ -14,7 +14,6 @@ public class HomeController {
     NonPlayableCharacterGenerator npcGen = new NonPlayableCharacterGenerator();
     ObjectMarshaller marshaller = new ObjectMarshaller();
 
-    @RequestMapping(value = "/home")
     public String index()
     {
         return "index";
