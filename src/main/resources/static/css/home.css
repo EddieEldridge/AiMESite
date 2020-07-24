@@ -1,0 +1,49 @@
+@font-face {
+    font-family: 'ringbearer';
+    src: url('/font/ringbearer.ttf') format('truetype');
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'lotrFont';
+    src: url('/font/lotr.ttf') format('truetype');
+    font-style: normal;
+    font-weight: normal;
+}
+
+
+
+#gandalfGif{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+}
+  
+
+h1{
+    padding-top: 20px;
+    font-family: 'lotrFont';
+}
+
+h2{
+    padding-top: 20px;
+    font-family: 'lotrFont';
+}
+
+#textPargraphs{
+    display: block;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    width: 100%;
+}
+
+#textContent{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    width: 80%;
+}

@@ -4,7 +4,9 @@ import React, { Component } from "react";
 class Banner extends React.Component{
     render(){
        return(
-           <div id="bannerimage"></div>
+           <div id="bannerimageDiv">
+                <img src="/image/banner.png" id="bannerImage"/> 
+           </div>
     )
     }
 }

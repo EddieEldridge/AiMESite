@@ -9,7 +9,8 @@ import '../resources/static/font/lotr.ttf'
 import {
     HashRouter as Router,
     Switch,
-    Link
+    Link,
+    Redirect,
   } from "react-router-dom";
 import {Route} from 'react-router'
 import axios from 'axios';
@@ -58,6 +59,7 @@ class App extends React.Component {
         }
 
         componentDidMount() {
+            window.location.replace("/#/homePage");
             this.sendGenerateCharacterRequest();
         }
 

@@ -34,7 +34,7 @@ module.exports = {
                 exclude: /(node_modules)/,
                 loader: 'url-loader',
                 options: {
-                    publicPath: './font/',
+                    publicPath: './',
                     name: '[name].[ext]',
                     limit: 1000
                 }

@@ -1,7 +1,15 @@
 @font-face {
     font-family: 'lotrFont';
-    src: url(  '../font/lotr.ttf') format('truetype');
+    src: url(  '/font/lotr.ttf') format('truetype');
   }
+
+  @font-face {
+    font-family: 'ringbearer';
+    src: url('/font/ringbearer.ttf') format('truetype');
+    font-style: normal;
+    font-weight: normal;
+}
+
 h1 {
     text-align: center;
     font-size: 55px;
@@ -52,6 +60,7 @@ p{
     width: 55%;
     margin-left: auto;
     margin-right: auto;
+    padding-top: 20px;
 }
 
 #statsDiv tr, th, td{
@@ -73,9 +82,11 @@ p{
 
 #npcInfo{
     padding-top: 20px;
+    height: 100%;
 }
 
 #infoTables{
+    padding-top: 20px;
     width:100%;
     display: block;
 }
