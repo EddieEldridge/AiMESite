@@ -5,8 +5,9 @@ import '../../resources/static/css/home.css';
 class Home extends React.Component{
     render(){
        return(
-           <div className="gandalf">
-              <h1>Mae g'ovannen!</h1>
+           <div className="box">
+             <div className="box-inner">
+             <h1>Mae g'ovannen!</h1>
               {/* <img id="gandalfGif" src="/image/gandalf.gif" alt="this slowpoke moves" /> */}
               <div id="textContent">
                   <h2>What is the purpose of this website?</h2>
@@ -32,6 +33,7 @@ class Home extends React.Component{
                   Hello and welcome to my website about Adventures in Middle Earth
                   
               </div>
+             </div>   
            </div>
            
     )

@@ -24,12 +24,13 @@
   padding-top: 15px;
 }
 
+
+
 /* Banner Image */
 #container{
     width: 55%;
     background-color: rgba(204, 154, 0, 0.8);
     height: 100%;
-    opacity: 0.9;
     position: center;
     display: block;
     margin-left: auto;
@@ -85,3 +86,4 @@
   background-color: grey;
   color: black;
 }
+
